@@ -1,0 +1,8 @@
+'PaesslerAG.Site:Content.Image':
+  superTypes:
+    'Neos.Neos:Content': true
+    'PaesslerAG.Site:Mixin.Image': true
+  ui:
+    label: Image
+    icon: picture
+    position: 300

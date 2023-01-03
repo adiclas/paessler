@@ -1,0 +1,9 @@
+prototype(PaesslerAG.Site:Component.Layout.Default) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <PaesslerAG.Site:Component.Header />
+        {props.content}
+        <PaesslerAG.Site:Component.Footer />
+    `
+}
